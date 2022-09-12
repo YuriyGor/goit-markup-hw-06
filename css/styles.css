@@ -47,8 +47,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-address {
-    /* или через класс .footer-address */
+address {   
     font-style: normal;
 }
 button {
@@ -191,8 +190,7 @@ body {
 }
 .header-contact .link:hover,
 .header-contact .link:focus {
-    color: var(--accent-color--);
-    /* fill: var(--accent-color--); */
+    color: var(--accent-color--);  
 }
 
 .item .link {
@@ -201,26 +199,12 @@ body {
 }
 .icon-envelope {
     margin-right: 10px;
-    fill: currentColor;
-
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    fill: currentColor;    
 }
-/* .icon-envelope:hover,
-.icon-envelope:focus {
-    fill: var(--accent-color--);
-} */
-
 .icon-smartphone {
     margin-right: 10px;
-    fill: currentColor;
-
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    fill: currentColor;   
 }
-/* .icon-smartphone:hover,
-.icon-smartphone:focus {
-    fill: var(--accent-color--);
-} */
-
 
 /*герой*/
 .hero {
@@ -560,6 +544,11 @@ body {
     align-items: baseline;
 }
 .footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14; 
+    text-align: left;
+    text-transform: uppercase;
     margin-bottom: 20px;
     color: var(--white-color--);
 }
@@ -578,6 +567,54 @@ body {
 .social-icon-footer:focus {
     /* fill: var(--white-color--); */
     background-color: var(--accent-color--);
+}
+
+.footer-social {
+    margin-left: 70px;
+}
+.footer-contact-form {
+    margin-left: auto;
+}
+.footer-form {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    
+}
+.footer-form-button {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: var(--accent-color--);
+    color: var(--white-color--);
+    padding-left: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-form-button:hover,
+.footer-form-button:focus {
+    background-color: var(--accent-color-focus--);
+}
+.footer-form-input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: var(--hero-footer-background-color--);
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-form-icon {
+    position: absolute;
+    top: 13px;
+    left: 148px;
 }
 
 
