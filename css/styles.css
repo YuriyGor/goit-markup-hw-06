@@ -679,7 +679,7 @@ body {
 
 .modal-close-btn:focus, 
 .modal-close-btn:hover{
-    fill: var(--accent-color);
+    fill: var(--accent-color--);
 }
 .modal-form {
     display: flex;
@@ -716,7 +716,7 @@ text-align: center;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: var(--secondery-text-color);
+    color: var(--primary-text-color--);
     margin-bottom: 4px;
 
 }
@@ -748,17 +748,17 @@ text-align: center;
 }
 .modal-form-comment:focus {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: var(--accent-color--);
 }
 .modal-form-input:focus + .modal-form-icon {
     fill: var(--accent-color);
 }
 .modal-form-input:focus {
-    border-color: var(--accent-color);
+    border-color: var(--accent-color--);
     outline: none;
 }
 .modal-form-checkbox {
-    border: 2px solid var(--primery-text-color);
+    border: 2px solid var(--secondary-text-color--);
     border-radius: 2px;
     cursor: pointer;
     margin-right: 7px;
@@ -767,8 +767,8 @@ text-align: center;
     display: none;
 }
 .modal-form-check:checked + .modal-form-checkbox {
-    background-color: var(--accent-color);
-    border: 2px solid var(--accent-color);
+    background-color: var(--accent-color--);
+    border: 2px solid var(--accent-color--);
 }
 .modal-form-check:checked + .modal-form-checkbox .modal-form-checkbox-icon {
     display: block;
@@ -779,11 +779,11 @@ text-align: center;
     margin-bottom: 30px;
     font-weight: 400;
     line-height: 1.71;
-    color: var(--secondery-text-color);
+    color: var( --primary-text-color--);
     margin-left: 12px;
 }
 .checkbox-accent {
-    color: var(--accent-color);
+    color: var(--accent-color--);
 }
 .modal-form-submit {
     padding: 10px 52px;
@@ -793,13 +793,13 @@ text-align: center;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    color: var(--main-letter-color);
-    background-color: var(--accent-color); 
+    color: var(--white-color--);
+    background-color: var(--accent-color--); 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-submit:hover,
 .modal-form-submit:focus {
-    background-color: var(--background-btn-color);
+    background-color: var( --accent-color-focus--);
 }
 
 
