@@ -694,6 +694,7 @@ line-height: 1.15;
 font-weight: 700;
 margin-bottom: 12px;
 text-align: center;
+color: var(--secondary-text-color--);
 }
 .modal-form-input-icon {
     position: relative;
