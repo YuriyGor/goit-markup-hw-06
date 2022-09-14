@@ -747,7 +747,7 @@ color: var(--secondary-text-color--);
     border-color: var(--accent-color--);
 }
 .modal-form-input:focus + .modal-form-icon {
-    fill: var(--accent-color);
+    fill: var(--accent-color--);
 }
 .modal-form-input:focus {
     border-color: var(--accent-color--);
